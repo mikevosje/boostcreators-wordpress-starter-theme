@@ -1,0 +1,15 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alignwide {
+  @extend .container;
+}
+
+.alignfull {
+  @extend .container-fluid;
+}

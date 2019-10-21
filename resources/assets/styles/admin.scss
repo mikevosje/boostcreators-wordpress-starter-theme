@@ -1,0 +1,18 @@
+//import fonts
+// @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans&display=swap');
+
+//only show these css files in .edit-post-layout for Gutenberg
+.edit-post-layout {
+  @import "common/variables";
+  @import "~bootstrap/scss/bootstrap";
+  @import "~include-media/dist/include-media";
+  @import 'autoload/fontawesome';
+  @import "common/global";
+  @import "components/forms";
+  @import "layouts/header";
+  @import "layouts/footer";
+  @import "layouts/pages";
+  @import "layouts/tinymce";
+  @import "blocks/blocks";
+
+}

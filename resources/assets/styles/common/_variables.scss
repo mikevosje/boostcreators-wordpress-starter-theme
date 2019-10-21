@@ -1,0 +1,26 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+        primary: #525ddc,
+);
+$fa-font-path: '../fonts';
+
+$lightgreen: #77B28C;
+$green: #088949;
+$greenblue: #5DA399;
+$blue-wsz: #42858C;
+$darkgrey: #35393C;
+$lightgrey: #F5F0F6;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+
+$breakpoints: (
+        'phone': 320px,
+        'tablet': 768px,
+        'desktop': 992px,
+        'lg': 1200px
+)
