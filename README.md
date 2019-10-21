@@ -38,8 +38,8 @@ Make sure all dependencies have been installed before moving on:
 ### Build commands
 
 * `yarn watch` — Compile assets when file changes are made, start Browsersync session
-* `yarn build` — Compile and optimize the files in your assets directory
-* `yarn build:production` — Compile assets for production
+* `yarn dev` — Compile and optimize the files in your assets directory
+* `yarn production` — Compile assets for production
 
 ## Documentation
 
