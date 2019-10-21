@@ -1,6 +1,6 @@
 # Boost Creators WordPress Starter Theme
 
-This theme is a copy from the Sage theme and used for sites build by Boost Creators.
+This theme is a copy from the [Sage](https://github.com/roots/sage) theme and used for sites build by Boost Creators.
 
 ## Features
 
@@ -24,7 +24,7 @@ Make sure all dependencies have been installed before moving on:
 ## Theme installation
 * Run `composer install` to install the composer packages
 * Run `yarn install` to install all the Yarn packages for development
-* Run `yarn build` or `yarn watvh` to build 
+* Run `yarn build` or `yarn watch` to build 
 
 ## Theme development
 
