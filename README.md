@@ -22,6 +22,8 @@ Make sure all dependencies have been installed before moving on:
 * [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## Theme installation
+* Copy theme to /wp-content/themes
+* Go to themefolder /wp-content/themes/boostcreators
 * Run `composer install` to install the composer packages
 * Run `yarn install` to install all the Yarn packages for development
 * Run `yarn build` or `yarn watch` to build 
