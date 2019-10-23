@@ -93,7 +93,7 @@ Container::getInstance()
         ]);
     }, true);
 
-
+    add_theme_support( 'align-wide' );
 include 'acf-blocks.php';
 include 'lib/webpconverter.php';
 include 'lib/mix.php';
