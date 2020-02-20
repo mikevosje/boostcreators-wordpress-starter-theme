@@ -17,6 +17,7 @@ class App extends Controller
             if ($home = get_option('page_for_posts', true)) {
                 return get_the_title($home);
             }
+
             return __('Latest Posts', 'sage');
         }
         if (is_archive()) {
@@ -28,6 +29,18 @@ class App extends Controller
         if (is_404()) {
             return __('Not Found', 'sage');
         }
+
         return get_the_title();
+    }
+
+    public static function returnImage($id, $size = '1600px')
+    {
+        if ($id) {
+            $size = wp_get_attachment_image_src($id, $size);
+
+            return wp_glide_image($size[0], 'full');
+        }
+
+        return '';
     }
 }

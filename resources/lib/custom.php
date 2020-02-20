@@ -25,3 +25,9 @@ function cc_mime_types($mimes)
 }
 
 add_filter('upload_mimes', __NAMESPACE__ . '\\cc_mime_types');
+
+
+//add image size 1600px for headers
+add_image_size('1600px', 1600, 0, false);
+//add image size 1200px for headers
+add_image_size('1200px', 1200, 0, false);

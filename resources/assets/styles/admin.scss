@@ -1,13 +1,17 @@
 //import fonts
-// @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700|Barlow:300,500,600,700&display=swap');
 
 //only show these css files in .edit-post-layout for Gutenberg
+@import 'common/fonts';
 .edit-post-layout {
   @import "common/variables";
-  @import "~bootstrap/scss/bootstrap";
+  @import "autoload/bootstrap";
   @import "~include-media/dist/include-media";
-  @import 'autoload/fontawesome';
+  @import 'autoload/fontawesome/fontawesome';
+  @import 'autoload/fontawesome/brands';
+  @import 'autoload/fontawesome/regular';
   @import "common/global";
+  @import "components/buttons";
   @import "components/forms";
   @import "layouts/header";
   @import "layouts/footer";
