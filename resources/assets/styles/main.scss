@@ -1,14 +1,7 @@
-//import fonts
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700|Barlow:300,500,600,700&display=swap');
-
 @import "common/fonts";
 @import "common/variables";
 @import "autoload/bootstrap";
 @import "~include-media/dist/include-media";
-@import 'autoload/fontawesome/fontawesome';
-@import 'autoload/fontawesome/brands';
-@import 'autoload/fontawesome/solid';
-@import 'autoload/fontawesome/regular';
 @import "common/global";
 @import "components/buttons";
 @import "components/forms";
