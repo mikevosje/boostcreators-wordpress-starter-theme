@@ -7,8 +7,6 @@ function mytheme_setup()
 
 add_action('after_setup_theme', 'mytheme_setup');
 
-define('WPCF7_AUTOP', true);
-
 // Move Yoast to bottom
 function yoasttobottom()
 {
