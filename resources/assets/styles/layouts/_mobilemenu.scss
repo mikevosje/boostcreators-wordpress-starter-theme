@@ -1,0 +1,84 @@
+.mobilemenuwrapper {
+    display: none;
+  
+    &.mobile-menu-open {
+      display: block;
+    }
+  
+    .mobilemenubackground {
+      background-color: rgba(0, 0, 0, 0.4);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: 110;
+    }
+  
+    .mobilenavigation {
+      height: 100vh;
+      max-width: 80%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: white;
+      z-index: 120;
+      padding: 15px;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
+  
+      .mobilenavigationtop {
+        position: relative;
+      }
+  
+      .brand {
+        img {
+          max-width: 120px;
+        }
+      }
+  
+      ul {
+        margin-top: 30px;
+        padding-left: 7px;
+  
+        li.menu-item {
+          width: 100%;
+  
+          a {
+            color: black;
+            font-weight: bold;
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+            font-size: 16px;
+          }
+        }
+      }
+  
+      .divider {
+        border-top: 1px solid #d5d5d5;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 0;
+      }
+  
+      .header-365dagen {
+        max-width: 80px;
+      }
+  
+      .tel {
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 7px;
+      }
+  
+      .mobile-close {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+  

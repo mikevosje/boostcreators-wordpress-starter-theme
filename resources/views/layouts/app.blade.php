@@ -7,10 +7,11 @@
   @include('partials.header')
   <div class="wrap" role="document">
     @yield('content')
-    @php do_action('get_footer') @endphp
     @include('partials.footer')
-    @php wp_footer() @endphp
   </div>
+    @include('partials.mobilemenu') 
+    @php do_action('get_footer') @endphp
+    @php wp_footer() @endphp
 </body>
 
 </html>
