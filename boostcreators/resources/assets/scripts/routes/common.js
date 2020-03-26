@@ -1,7 +1,7 @@
 export default {
   init() {
     // JavaScript to be fired on all pages
-    jQuery('header').sticky({ top: 0, zIndex: 1000 });
+    jQuery('header').sticky({ top: 0, zIndex: 100 });
 
     jQuery('.mobile-button').on('click', function () {
       jQuery('body').addClass('overflow-hidden');
